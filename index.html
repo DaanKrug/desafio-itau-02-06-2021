@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+    	<meta http-equiv="Cache-Control" 
+    	      content="public, max-age=86400" />
+        <meta charset="utf-8" />
+        <meta name="viewport" 
+              content="width=device-width, initial-scale=1" />
+        <base href="."> 
+        <title>Desafio Itaú - 02/06/2021</title>
+        <link href="./assets/css/styles.css" 
+              rel="stylesheet" />
+        <script type="text/javascript" 
+                src="./assets/js/scripts.js">
+        </script>
+        <link rel="preconnect" 
+              href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
+              rel="stylesheet" /> 
+    </head>
+    <body onload="setTabs();">
+    	<header>
+    		Desafio Itaú - 02/06/2021
+    	</header>
+    	<main class="card">
+    		<section class="header">
+    			Novo Cadastro
+    		</section>
+    		<section aria-label="Formulário de Cadastro"
+    		         class="form">
+    		    <form action="/" method="post">
+	    		    <div class="tabheaderpanel">
+	    		    	<div id="tabheader0"
+	    		    	     class="header tabheader active">
+	    		    		Dados Pessoais
+	    				</div>
+	    				<div id="tabheader1"
+	    				     class="header tabheader disabled">
+	    					Endereço 
+	    				</div>
+	    				<div id="tabheader2"
+	    				     class="header tabheader disabled">
+	    					Informações de Contato
+	    				</div>
+	    				<div class="clear"></div>
+	    		    </div>
+	    			<div class="card">
+	    				<div id="tab0"
+	    				     class="tabpanel">
+	    					<div class="field">
+	    						<label for="name">Nome (*)</label>
+	    						<input id="name" type="text" />
+	    					</div>
+	    					<div class="field">
+	    						<label for="cpf">C.P.F (*)</label>
+	    						<input id="cpf" type="text" />
+	    					</div>
+	    					<div class="field">
+	    						<label for="rg">R.G.</label>
+	    						<input id="rg" type="text" />
+	    					</div>
+	    					<div class="field">
+	    						<label for="genre">Sexo/Gênero</label>
+	    						<select id="genre">
+	    							<option value=""></option>
+	    							<option value="M">Masculino</option>
+	    							<option value="F">Feminino</option>
+	    							<option value="O">Outro</option>
+	    						</select>
+	    					</div>
+	    				</div>
+	    				<div id="tab1"
+	    				     class="tabpanel none">
+	    					<div class="field fleft"
+	    					     style="width: calc(100% - 7.5em);"> 
+	    						<label for="address">Endereço (*)</label>
+	    						<input id="address" type="text" />
+	    					</div>
+	    					<div class="field fleft"
+	    					     style="width: 6em;">
+	    						<label for="number">Número (*)</label>
+	    						<input id="number" type="text" />
+	    					</div>
+	    					<div class="clear"></div>
+	    					<div class="field">
+	    						<label for="neighborhood">Bairro</label>
+	    						<input id="neighborhood" type="text" />
+	    					</div>
+	    					<div class="field fleft"
+	    					     style="width: calc(100% - 11.5em);"> 
+	    						<label for="city">Cidade</label>
+	    						<input id="city" type="text" />
+	    					</div>
+	    					<div class="field fleft"
+	    					     style="width: 3em;">
+	    						<label for="uf">U.F.</label>
+	    						<input id="uf" type="text" />
+	    					</div>
+	    					<div class="field fleft"
+	    					     style="width: 7em;">
+	    						<label for="cep">C.E.P.</label>
+	    						<input id="cep" type="text" />
+	    					</div>
+	    					<div class="clear"></div>
+	    				</div>
+	    				<div id="tab2"
+	    				     class="tabpanel none">
+	    					<div class="field">
+	    						<label for="phone">Telefone Fixo</label>
+	    						<input id="phone" type="text" />
+	    					</div>
+	    					<div class="field">
+	    						<label for="cellphone">Telefone Celular (*)</label>
+	    						<input id="cellphone" type="text" />
+	    					</div>
+	    				</div>
+	    				<div class="clear"></div>
+	    				<div id="errorcontainer">
+	    					Os campos assinalados com (*) são requeridos
+	    				</div>
+	    				<div class="clear"></div>
+	    				<div class="actions">
+		    				<button id="previousButton"
+		    				        onclick="previousTab();"
+		    				        type="button">
+		    					&lt;&lt; Anterior
+		    				</button>
+		    				<button id="nextButton"
+		    				        onclick="nextTab();"
+		    				        type="button">
+		    					Próximo &gt;&gt;
+		    				</button>
+		    				<button id="submitButton"
+		    				        type="button"
+		    				        onclick="nextTab();">
+		    					Concluir Cadastro
+		    				</button>
+		    			</div>
+	    			</div>
+    			</form>
+    		</section>
+    	</main>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

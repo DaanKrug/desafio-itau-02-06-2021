@@ -1,0 +1,103 @@
+body{
+	margin: 0; 
+	padding: 0;
+}
+header{
+	height: 2.5rem;
+	font-size: 1.2rem;
+	padding-top: .5rem;
+	text-transform: uppercase;
+}
+.header{
+	height: 1.8rem;
+	font-size: 1rem;
+	padding-top: .3rem;
+}
+header, 
+.header,
+button{
+	text-align: center;
+	color: #fff;
+	background-color: #0064ff;
+}
+main{
+	width: 80%;
+	max-width: 30em;
+	margin: 2em auto;
+}
+.card{
+	border: 1px solid #0064ff;
+	border-radius: .3rem;
+}
+.form{
+	padding: .5em;	
+}
+.tabheaderpanel{
+	padding: 0 0 0 .3em;
+}
+.tabheader{
+	display: inline;
+	float: left;
+	margin-right: .2em;
+	border-radius: .3em .3em 0 0;
+	padding: .5em .8em 0 .5em;
+	font-size: .9em;
+}
+.tabpanel{
+	padding: .5em;
+}
+.field{
+	margin: .3em 0;
+}
+.none{
+	display: none;
+}
+.active{
+	cursor: pointer;
+}
+.disabled{
+	cursor: default;
+	opacity: .8;
+}
+.clear{
+	clear: both;
+}
+input, select, label{
+	display: block;
+	width: 100%;
+}
+input, select, button{
+	border: 1px solid #ccc;
+	border-radius: .25em;
+}
+input{
+	height: 1.5em;
+}
+select{
+	height: 1.7em;
+}
+.error{
+	border: 1px solid #f00;
+}
+.fleft{
+	float: left;
+	padding-right: .5em;
+}
+.actions{
+	padding: 0.2em 0.2em 1em 0.2em;
+	text-align: center;
+}
+button{
+	padding: .5em .8em;
+	cursor: pointer;
+}
+#errorcontainer{
+	color: #f00;
+	border: 1px solid #f00;
+	border-radius: .25em;
+	background: #ff0;
+	display: none;
+	margin: .2em .5em;
+	padding: .3em;
+}
+
