@@ -3,7 +3,7 @@ var headers = ['tabheader0','tabheader1','tabheader2'];
 var panels = ['tab0','tab1','tab2'];
 var buttons = ['previousButton','nextButton','submitButton'];
 var fields = [
-	['name','cpf'],
+	['name','cpf','genre'],
 	['address','number'],
 	['cellphone'],
 ];
